@@ -23,6 +23,6 @@ $api->version('v1', [
         $api->get('user', 'UserController@userShow')->name('api.user.show');
 
         $api->get('users', 'UserController@index')->name('api.users.index');
-        $api->get('users/{id}', 'UserController@show')->name('api.user.show');
+        $api->get('users/{id}', 'UserController@show')->name('api.users.show');
     });
 });
