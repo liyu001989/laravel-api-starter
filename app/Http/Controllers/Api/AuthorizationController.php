@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use Auth;
-use Illuminate\Http\Request;
 use App\Models\Authorization;
 use App\Transformers\AuthorizationTransformer;
 use App\Http\Requests\Api\Authorization\StoreRequest;
@@ -14,7 +13,7 @@ class AuthorizationController extends Controller
     {
         $credentials = $request->only('email', 'password');
 
-        if (!$token = Auth::attempt($credentials)) {
+        if (! $token = Auth::attempt($credentials)) {
             abort(403, '用户名或密码错误');
         }
 
