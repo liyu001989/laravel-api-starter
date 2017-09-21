@@ -3,4 +3,4 @@ preset: laravel
 linting: true
 
 disabled:
-  - unused_use
+  - phpdoc_no_package
