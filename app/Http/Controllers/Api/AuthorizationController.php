@@ -14,7 +14,7 @@ class AuthorizationController extends Controller
         $credentials = $request->only('email', 'password');
 
         if (! $token = Auth::attempt($credentials)) {
-            abort(403, '用户名或密码错误');
+            abort(401, '用户名或密码错误');
         }
 
         $authorization = new Authorization($token);
