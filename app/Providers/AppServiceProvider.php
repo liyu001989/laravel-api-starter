@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Http\Resources\Json\Resource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,6 +15,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // resource 没有wrap
+        Resource::withoutWrapping();
         // model findOrFail 返回404
         \API::error(function (ModelNotFoundException $exception) {
             abort(404);

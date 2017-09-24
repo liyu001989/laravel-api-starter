@@ -4,13 +4,13 @@ namespace App\Http\Controllers\Api;
 
 use App\Models\User;
 use Illuminate\Http\Request;
-use App\Http\Transformers\UserTransformer;
+use App\Http\Resources\UserResource;
 
 class UserController extends Controller
 {
     public function userShow()
     {
-        return $this->response->item($this->user(), new UserTransformer());
+        return new UserResource($this->user());
     }
 
     public function index()
@@ -18,13 +18,13 @@ class UserController extends Controller
         $users = User::orderBy('id', 'desc')
             ->paginate();
 
-        return $this->response->paginator($users, new UserTransformer());
+        return UserResource::collection($users);
     }
 
     public function show($id)
     {
         $user = User::findOrFail($id);
 
-        return $this->response->item($user, new UserTransformer());
+        return new UserResource($user);
     }
 }
