@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use Auth;
 use App\Models\Authorization;
-use App\Transformers\AuthorizationTransformer;
+use App\Http\Transformers\AuthorizationTransformer;
 use App\Http\Requests\Api\Authorization\StoreRequest;
 
 class AuthorizationController extends Controller
