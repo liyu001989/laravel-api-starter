@@ -11,6 +11,7 @@
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "liyu/dingo-serializer-switch": "0.2.*",
+        "tucker-eric/eloquentfilter": "^1.2",
         "tymon/jwt-auth": "1.0.0-rc.1"
     },
     "require-dev": {

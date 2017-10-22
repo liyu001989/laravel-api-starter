@@ -1,6 +1,6 @@
 # laravel-api-starter
 
-这是一个 Laravel 5.5 + JWT 的基础项目
+这是一个 Laravel 5.5 + Dingo + JWT 的基础项目, 用于快速开始写 API
 
 [![StyleCI](https://styleci.io/repos/95127265/shield)](https://styleci.io/repos/95127265)
 [![License](https://img.shields.io/github/license/liyu001989/laravel-api-starter.svg)](LICENSE)
@@ -8,7 +8,7 @@
 [![donate](https://img.shields.io/badge/%E7%BA%A2%E5%8C%85-donate-red.svg)](https://cloud.githubusercontent.com/assets/2981799/25706351/cfba493c-3112-11e7-9985-aec05ff9734c.png)
 
 
-- laravel/RESTful 交流群: 216721539
+- Laravel/RESTful 交流群: 216721539
 
 ## USEFUL LINK
 
@@ -25,7 +25,6 @@
 - php lint [phplint](https://github.com/overtrue/phplint)
 - Laravel 理念 [From Apprentice To Artisan](https://my.oschina.net/zgldh/blog/389246)
 - 我对 REST 的理解 [http://blog.lyyw.info/2017/02/09/2017-02-09%20%E5%AF%B9rest%E7%9A%84%E7%90%86%E8%A7%A3/](http://blog.lyyw.info/2017/02/09/2017-02-09%20%E5%AF%B9rest%E7%9A%84%E7%90%86%E8%A7%A3/)
-- 项目api在线文档 [http://lumen.lyyw.info/apidoc](https://lumen.lyyw.info/apidoc)
 
 ## USAGE
 
@@ -37,10 +36,10 @@ $ cp .env.example .env
 $ vim .env
     DB_*
         填写数据库相关配置 your database configuration
-    JWT_SECRET
-        php artisan jwt:secret
     APP_KEY
         php artisan key:generate
+    JWT_SECRET
+        php artisan jwt:secret
 
 $ php artisan migrate
 $ php artisan db:seed (默认添加了10个用户)
