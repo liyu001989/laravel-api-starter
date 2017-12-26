@@ -24,6 +24,7 @@ class AuthorizationController extends Controller
         // 但是比如这个情况，我想让所有资源的结构统一，比如有没有wrap，不想自己使用json结构返回
         // 要返回201 就需要向下面这样
         $response = new AuthorizationResource($authorization);
+
         return $response->response()->setStatusCode(201);
     }
 
