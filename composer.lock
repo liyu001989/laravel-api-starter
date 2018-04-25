@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e167a131bbe44374dacf42c557e5f35",
+    "content-hash": "e307a9546ba417aa5d0a989b97887b65",
     "packages": [
         {
             "name": "dingo/api",
@@ -1069,22 +1069,29 @@
         },
         {
             "name": "liyu/dingo-serializer-switch",
-            "version": "v0.2.4",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liyu001989/dingo-serializer-switch.git",
-                "reference": "eb0346bf35bb0b535f82ee4b925587336e69f1aa"
+                "reference": "82e23a7c9f46f7ec05ae9b5999c618f5c21a3290"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liyu001989/dingo-serializer-switch/zipball/eb0346bf35bb0b535f82ee4b925587336e69f1aa",
-                "reference": "eb0346bf35bb0b535f82ee4b925587336e69f1aa",
+                "url": "https://api.github.com/repos/liyu001989/dingo-serializer-switch/zipball/82e23a7c9f46f7ec05ae9b5999c618f5c21a3290",
+                "reference": "82e23a7c9f46f7ec05ae9b5999c618f5c21a3290",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Liyu\\Dingo\\ServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Liyu\\Dingo\\": "src"
@@ -1101,7 +1108,7 @@
                 }
             ],
             "description": "A middleware to switch dingo serializer",
-            "time": "2017-10-26T14:02:14+00:00"
+            "time": "2018-01-06T05:09:05+00:00"
         },
         {
             "name": "monolog/monolog",
