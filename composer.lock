@@ -661,16 +661,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.26",
+            "version": "v5.6.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7047df295e77cecb6a2f84736a732af66cc6789c"
+                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7047df295e77cecb6a2f84736a732af66cc6789c",
-                "reference": "7047df295e77cecb6a2f84736a732af66cc6789c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
+                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-06-20T14:21:11+00:00"
+            "time": "2018-07-17T14:15:36+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -909,7 +909,7 @@
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
                     "email": "lcobucci@gmail.com",
-                    "role": "developer"
+                    "role": "Developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
@@ -1306,16 +1306,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "35b8caf75e791ba1b2d24fec1552168d72692b12"
+                "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/35b8caf75e791ba1b2d24fec1552168d72692b12",
-                "reference": "35b8caf75e791ba1b2d24fec1552168d72692b12",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bd088dc940a418f09cda079a9b5c7c478890fb8d",
+                "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d",
                 "shasum": ""
             },
             "require": {
@@ -1353,20 +1353,20 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-06-03T11:33:10+00:00"
+            "time": "2018-07-15T17:25:16+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.15",
+            "version": "v2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09"
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/10bcb46e8f3d365170f6de9d05245aa066b81f09",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
                 "shasum": ""
             },
             "require": {
@@ -1402,7 +1402,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-06-08T15:26:40+00:00"
+            "time": "2018-07-04T16:31:37+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1848,16 +1848,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.0.2",
+            "version": "v6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc"
+                "reference": "7d760881d266d63c5e7a1155cbcf2ac656a31ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/412333372fb6c8ffb65496a2bbd7321af75733fc",
-                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/7d760881d266d63c5e7a1155cbcf2ac656a31ca8",
+                "reference": "7d760881d266d63c5e7a1155cbcf2ac656a31ca8",
                 "shasum": ""
             },
             "require": {
@@ -1868,10 +1868,14 @@
                 "mockery/mockery": "~0.9.1",
                 "symfony/phpunit-bridge": "~3.3@dev"
             },
+            "suggest": {
+                "ext-intl": "Needed to support internationalized email addresses",
+                "true/punycode": "Needed to support internationalized email addresses, if ext-intl is not installed"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
+                    "dev-master": "6.1-dev"
                 }
             },
             "autoload": {
@@ -1893,13 +1897,13 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.symfony.com",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-09-30T22:39:41+00:00"
+            "time": "2018-07-13T07:04:35+00:00"
         },
         {
             "name": "symfony/console",
@@ -2927,16 +2931,16 @@
         },
         {
             "name": "tucker-eric/eloquentfilter",
-            "version": "1.3.1",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Tucker-Eric/EloquentFilter.git",
-                "reference": "bb1575087359d668e17f6f37fdc19a6b2f554d8a"
+                "reference": "44e79edff96e955cd48b4749ba34511537dfeb06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tucker-Eric/EloquentFilter/zipball/bb1575087359d668e17f6f37fdc19a6b2f554d8a",
-                "reference": "bb1575087359d668e17f6f37fdc19a6b2f554d8a",
+                "url": "https://api.github.com/repos/Tucker-Eric/EloquentFilter/zipball/44e79edff96e955cd48b4749ba34511537dfeb06",
+                "reference": "44e79edff96e955cd48b4749ba34511537dfeb06",
                 "shasum": ""
             },
             "require": {
@@ -2944,6 +2948,7 @@
                 "illuminate/console": "~5.0",
                 "illuminate/database": "~5.0",
                 "illuminate/filesystem": "~5.0",
+                "illuminate/pagination": "~5.0",
                 "illuminate/support": "~5.0",
                 "php": ">=5.5.9"
             },
@@ -2983,7 +2988,7 @@
                 "query",
                 "search"
             ],
-            "time": "2018-06-12T15:40:39+00:00"
+            "time": "2018-07-10T03:49:30+00:00"
         },
         {
             "name": "tymon/jwt-auth",
@@ -3279,16 +3284,16 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
                 "shasum": ""
             },
             "require": {
@@ -3296,7 +3301,7 @@
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "^4.0 || ^5.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
                 "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
@@ -3325,7 +3330,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-08-15T16:48:10+00:00"
+            "time": "2018-07-12T10:23:15+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -3554,22 +3559,22 @@
         },
         {
             "name": "phar-io/manifest",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/manifest.git",
-                "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0"
+                "reference": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/manifest/zipball/2df402786ab5368a0169091f61a7c1e0eb6852d0",
-                "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
+                "reference": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-phar": "*",
-                "phar-io/version": "^1.0.1",
+                "phar-io/version": "^2.0",
                 "php": "^5.6 || ^7.0"
             },
             "type": "library",
@@ -3605,20 +3610,20 @@
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
-            "time": "2017-03-05T18:14:27+00:00"
+            "time": "2018-07-08T19:23:20+00:00"
         },
         {
             "name": "phar-io/version",
-            "version": "1.0.1",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/version.git",
-                "reference": "a70c0ced4be299a63d32fa96d9281d03e94041df"
+                "reference": "45a2ec53a73c70ce41d55cedef9063630abaf1b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/version/zipball/a70c0ced4be299a63d32fa96d9281d03e94041df",
-                "reference": "a70c0ced4be299a63d32fa96d9281d03e94041df",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/45a2ec53a73c70ce41d55cedef9063630abaf1b6",
+                "reference": "45a2ec53a73c70ce41d55cedef9063630abaf1b6",
                 "shasum": ""
             },
             "require": {
@@ -3652,7 +3657,7 @@
                 }
             ],
             "description": "Library for handling version information and constraints",
-            "time": "2017-03-05T17:38:23+00:00"
+            "time": "2018-07-08T19:19:57+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -3968,16 +3973,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.2.6",
+            "version": "7.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "400a3836ee549ae6f665323ac3f21e27eac7155f"
+                "reference": "8e878aff7917ef66e702e03d1359b16eee254e2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/400a3836ee549ae6f665323ac3f21e27eac7155f",
-                "reference": "400a3836ee549ae6f665323ac3f21e27eac7155f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e878aff7917ef66e702e03d1359b16eee254e2c",
+                "reference": "8e878aff7917ef66e702e03d1359b16eee254e2c",
                 "shasum": ""
             },
             "require": {
@@ -3988,8 +3993,8 @@
                 "ext-mbstring": "*",
                 "ext-xml": "*",
                 "myclabs/deep-copy": "^1.7",
-                "phar-io/manifest": "^1.0.1",
-                "phar-io/version": "^1.0",
+                "phar-io/manifest": "^1.0.2",
+                "phar-io/version": "^2.0",
                 "php": "^7.1",
                 "phpspec/prophecy": "^1.7",
                 "phpunit/php-code-coverage": "^6.0.7",
@@ -4048,7 +4053,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-06-21T13:13:39+00:00"
+            "time": "2018-07-15T05:20:50+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -4097,16 +4102,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "591a30922f54656695e59b1f39501aec513403da"
+                "reference": "5de4fc177adf9bce8df98d8d141a7559d7ccf6da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/591a30922f54656695e59b1f39501aec513403da",
-                "reference": "591a30922f54656695e59b1f39501aec513403da",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/5de4fc177adf9bce8df98d8d141a7559d7ccf6da",
+                "reference": "5de4fc177adf9bce8df98d8d141a7559d7ccf6da",
                 "shasum": ""
             },
             "require": {
@@ -4157,7 +4162,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2018-06-14T15:05:28+00:00"
+            "time": "2018-07-12T15:12:46+00:00"
         },
         {
             "name": "sebastian/diff",
