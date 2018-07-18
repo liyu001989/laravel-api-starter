@@ -1,7 +1,5 @@
 preset: laravel
 
-linting: true
-
 disabled:
   - no_unused_imports
   - phpdoc_no_package
